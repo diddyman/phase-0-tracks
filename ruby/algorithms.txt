@@ -1,0 +1,14 @@
+
+1. Algorithm for using elevator
+
+- Stand in front of elevator
+- Once elevator door opens, then step inside.
+- Standing inside elevator, turn to face elevator door
+- Press floor level on panel beside elevator door
+- Once level has been reached, exit elevator
+
+2. Algorithm for walking to train
+
+- Exit apartment
+- Walk to train station
+- Check enter train to desired destination.
