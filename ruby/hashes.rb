@@ -1,7 +1,10 @@
 
 
-#Give the user the opportunity to update a key
-puts "Would you like to update your entry? (yes or no):"
+# This program gives the user the opportunity to update the keys of the details hash
+details = {name: nil, age: nil, kids: nil,  decor_theme: nil}
+i = 0 
+while i < details.length
+puts "Would you like to update an entry? (yes or no):"
 entry = gets.chomp!
 	if entry == "yes"
 		puts "What entry would you like to update?:"
@@ -30,8 +33,10 @@ entry = gets.chomp!
 			end
 			
 	elsif entry == "no"	
-	    p details
-	 else
+	   break
+	else
 	 	puts "invalid entry"
 	 	p details
-	 end
+	end
+i += 1
+end
