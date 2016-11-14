@@ -1,4 +1,6 @@
 #BUSINESS LOGIC
+# This game generates a word for you to guess
+# The number of guesses is equal to the length of the word
 
 class Guessword
   attr_reader :selected_word
