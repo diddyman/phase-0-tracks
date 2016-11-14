@@ -1,0 +1,26 @@
+.pic01
+{
+width: 25%;	
+position: relative;
+top: 0;
+left: 0;
+
+}
+
+.pic02
+{
+width: 22%;
+position: absolute;
+top: 150px;
+left: 30px;
+}
+
+.pic03
+{
+width: 30%;	
+height: 80px;
+position: absolute;
+top: 0;
+left: 0;
+
+}
