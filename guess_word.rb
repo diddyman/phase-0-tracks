@@ -6,7 +6,7 @@ class Guessword
   attr_reader :wordcount
   
   def initialize
-    @word = ["ball", "dull", "cat", "dog", "boat"]
+    @word = ["ball", "dull", "cat", "dog", "boat", "can"]
     @selected_word = " "
     @generated_letters = []
     @spaced_letters = []
