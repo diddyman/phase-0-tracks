@@ -40,3 +40,44 @@ function compare(laos, austria) {
 }
 
 compare(laos,austria);
+
+
+// This code generates random words 
+  // This function that takes an integer for length, and builds and returns an array of strings of the given length.
+
+var numberOfWords = 3;       // Variable for integer to be pased into function
+
+  // Create function to generate random word
+function generateWord(numberOfWords) {
+	var word = []           // words will be stored in this array
+	var randomLength = null
+	var alphabets = "abcdefghijklmnopqrstuvwxyz"
+
+	//Generate random length of word (betweeen 1- 10 inclusive)
+	min = Math.ceil(1);
+	max = Math.floor(10);
+	randomLength = Math.floor(Math.random() * (max - min + 1)) + min;
+	//return randomLength
+
+	//Generate randomWord
+	var arrOfGeneratedAlphabets = []
+		this.baseWord = function() {
+		  for(i=0; i < randomLength; i++) {
+			arrOfGeneratedAlphabets[i] = alphabets[Math.floor(Math.random() * (alphabets.length))]
+		}
+		return word = arrOfGeneratedAlphabets.join("");
+		}
+		
+		//Generate several words based on integer passed into root function
+		this.wordGenerator = function(){
+		  for(b=0; b < numberOfWords; b++){
+	   console.log(this.baseWord());
+	                   }
+		             }
+}
+
+var number = 4;
+a = new generateWord(number);
+a.baseWord();
+a.wordGenerator();
+
